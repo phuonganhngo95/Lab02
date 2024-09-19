@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài thực hành 03</title>
+</head>
+<body>
+    <form action="" method="post">
+        <table align="center">
+            <caption><h3>Đăng kí thành viên</h3></caption>
+            <tr>
+                <td>
+                    <label for="fullname">Họ và Tên</label>
+                </td>
+                <td>
+                    <input type="text" name="fullname" id="fullname">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="username">Tên đăng nhập</label>
+                </td>
+                <td>
+                    <input type="text" name="username" id="username">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="password">Mật khẩu</label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="password">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="avatar">Ảnh đại diện</label>
+                </td>
+                <td>
+                    <input type="file" name="avatar" id="avatar">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Thư điện tử</label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="gender">Giới tính</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Nam</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Nữ</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="hobby">Sở thích</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="football" id="football">
+                    <label for="football">Bóng đá</label>
+                    <input type="checkbox" name="movie" id="movie">
+                    <label for="movie">Xem phim</label> <br>
+                    <input type="checkbox" name="travel" id="travel">
+                    <label for="travel">Du lịch</label>
+                    <input type="checkbox" name="swimming" id="swimming">
+                    <label for="swimming">Bơi</label>
+                    <input type="checkbox" name="music" id="music">
+                    <label for="music">Nghe nhạc</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="hometown">Quê quán</label>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="">---Chọn tỉnh---</option>
+                        <option value="HN">Hà Nội</option>
+                        <option value="HCM">TP.Hồ Chí Minh</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="address">Địa chỉ</label>
+                </td>
+                <td>
+                    <input type="text" name="address" id="address">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="phoneNum">Điện thoại</label>
+                </td>
+                <td>
+                    <input type="text" name="phoneNum" id="phoneNum" max="12">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="short-des">Mô tả ngắn</label>
+                </td>
+                <td>
+                    <textarea name="short-des" id="short-des" style="width: 300px; height: 75px;"></textarea>
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Đăng Ký</button>
+                    <button type="reset">Làm lại</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

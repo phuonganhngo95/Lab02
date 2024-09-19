@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 7</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset style="border: none;">
+            <h2>To Do List</h2>
+        <hr>
+        </fieldset>
+
+        <fieldset style="border: none;">
+            <legend>
+                <label for="item"><b>Item</b></label>
+            </legend>
+            <input type="text" name="item" id="item" style="width: 380px;">
+        </fieldset>
+
+        <fieldset style="border: none;">
+            <legend>
+                <label for="des"><b>Description</b></label>
+            </legend>
+            <textarea name="des" id="des" cols="50" rows="5"></textarea>
+        </fieldset>
+
+        <fieldset style="border: none;">
+            <table width="400px">
+                <tr>
+                    <td><b>Priority</b></td>
+                    <td><b>Category</b></td>
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option value="low">Low</option>
+                            <option value="#">------------------------------------</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select>
+                            <option value="personal">Personal</option>
+                            <option value="#">-------------------------------------</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset style="border: none;">
+            <legend><b>Due Date</b></legend>
+            <input type="date" name="" id="">
+        </fieldset>
+
+        <fieldset style="border: none;">
+            <legend><b>Status</b></legend>
+            <input type="checkbox" name="submit" id="submit">
+            <label for="submit">Done.</label>
+        </fieldset>
+
+        <fieldset style="border: none;">
+            <button type="submit" value="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
